@@ -1,0 +1,46 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, #ffd6e0, #ffe9ec);
+  color: #c20055;
+  text-align: center;
+}
+
+.lock-screen {
+  padding-top: 150px;
+}
+
+.heart-lock {
+  font-size: 80px;
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.main-app {
+  padding: 20px;
+}
+
+nav button {
+  background: pink;
+  color: #c20055;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.page img {
+  max-width: 80%;
+  margin: 10px 0;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
