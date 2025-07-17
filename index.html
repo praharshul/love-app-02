@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For My Loved One</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="lock-screen" id="lockScreen">
+    <div class="heart-lock" onclick="unlockApp()">❤️</div>
+    <p>Tap the heart to unlock</p>
+  </div>
+
+  <div class="main-app" id="mainApp" style="display: none;">
+    <h1>Thank You for Being With Me Baby 💖</h1>
+    <nav>
+      <button onclick="showPage('letter')">Open Your Letter 💌</button>
+      <button onclick="showPage('gallery')">Memory Gallery 📸</button>
+      <button onclick="showPage('music')">Love Song 🎶</button>
+    </nav>
+
+    <div class="page" id="letterPage" style="display: none;">
+      <h2>Toh Babyyy 💕</h2>
+      <p>Ye apke liyee chotaa sa gift 😭💋 Example ki apka baby bhot kuch krskta hey!
+         I love uhh bhot saraaa 💖</p>
+    </div>
+
+    <div class="page" id="galleryPage" style="display: none;">
+      <h2>Our Memories 📸</h2>
+      <img src="mem1.jpg" alt="Memory 1" />
+      <img src="mem2.jpg" alt="Memory 2" />
+      <img src="mem3.jpg" alt="Memory 3" />
+    </div>
+
+    <div class="page" id="musicPage" style="display: none;">
+      <h2>Our Love Song 🎶</h2>
+      <iframe width="100%" height="300"
+        src="https://www.youtube.com/embed/D0gWr9K8Lb4?start=50&autoplay=1"
+        title="Love Song" allow="autoplay"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
